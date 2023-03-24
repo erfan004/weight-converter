@@ -1,0 +1,72 @@
+body{
+  background-color: rgb(176, 175, 175);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+.container {
+  padding: 10px 10px;
+  border: 2px solid black;
+  width: 700px;
+  background-color: rgb(206, 205, 205);
+  margin: 10px auto;
+  border-radius: 15px;
+}
+#select-met {
+  width: 200px;
+  display: block;
+  text-align: center;
+  margin: 10px auto;
+  padding: 5px 0;
+  outline: none;
+  border:none;
+  box-shadow: 0 0 12px gray; 
+  border-radius: 4px;
+}
+.output {
+  width: auto;
+  display: block;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.convertBox {
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 0 12px gray; 
+  text-align: center;
+}
+.convertedBox {
+  box-shadow: 0 0 12px gray; 
+  cursor: not-allowed;
+  text-align: center;
+  border-radius: 4px;
+}
+.submitBtn {
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 12px gray; 
+  margin-top: 20px;
+}
+ @media screen and (max-width:1200px) {
+   .container{
+     width: 700px;
+   }
+}
+ @media screen and (max-width:768px) {
+   .container{
+     width: 400px;
+   }
+}
+ @media screen and (max-width:576px) {
+   .container{
+     width: auto;
+   }
+}
